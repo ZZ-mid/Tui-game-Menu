@@ -43,7 +43,7 @@ with term.cbreak(), term.hidden_cursor():
             if pos == 1:
                 subprocess.run(["python3", "notepaddev/Checkpoint.py"])
             if pos == 2:
-                break
+                subprocess.run(["python3", "notepaddev/game.py"])
                 
 
 
